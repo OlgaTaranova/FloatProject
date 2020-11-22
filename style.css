@@ -271,3 +271,202 @@ html {
 .socials a {
     margin-left: 2.2rem; 
 }
+
+/*Media*/
+
+@media (min-width: 768px) and (max-width: 1229px) {
+    .content_wrapper {
+        padding: 0 5%;
+    }
+    .logo {
+        font-size: 3rem;
+    }
+    .nav {
+        padding-top: 1.5rem;
+    }
+    .nav li {
+        padding-left: 2.2rem;
+    }
+    .design_and_markup {
+        height: 65rem;
+    }
+    .design_and_markup h1 {
+        font: 500 4rem 'Roboto', sans-serif;
+        margin-bottom: 2rem;
+    }
+    .design_and_markup .text {
+        padding-right: 0rem;
+        margin-bottom: 3rem;
+    }
+    .design_and_markup img {
+        padding: 0 8rem 10rem 0rem;
+    }
+    .advantages {
+        height: 32rem;
+    }
+    .adv_item {
+        margin-left: 12.5rem;
+        margin-bottom: 3rem;
+    }
+    .about {
+        padding: 5rem 0;
+    }
+    .skills {
+        height: 42rem;
+        padding: 7rem 0;
+    }
+    .skills img {
+        width: 31.08rem;
+        height: 25.2rem;
+        margin-right: 0rem;
+        margin-top: 4rem;
+    }
+    .skills .section_title {
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .progress_outer {
+        width: 26.7rem;
+    }
+    .progress_inner {
+        width: 20.94rem;
+    }
+    .work {
+        padding: 5rem 0;
+    }
+    .video {
+        width: 66.6rem;
+        height: 36rem;
+    }
+    .additional {
+        padding-bottom: 7rem;
+    }
+    .microsoft img {
+        width: 14rem;
+    }
+}
+@media (max-width: 767px) {
+    .content_wrapper {
+        padding: 0 5%;
+    }
+    .header {
+        padding-top: 2rem;
+    }
+    .logo {
+        font-size: 4rem;
+    }
+    .nav {
+        padding-top: 0;
+    }
+    .nav li {
+        float: none;
+        margin-bottom: 0.7rem;
+    }
+    .design_and_markup img {
+        display: none;
+    }
+    .design_and_markup h1 {
+        font: 500 4rem 'Roboto', sans-serif;
+        margin-bottom: 2rem;
+    }
+    .design_and_markup .text {
+        padding-right: 0rem;
+        margin-bottom: 3rem;
+    }
+    .about {
+        padding: 7rem 0;
+    }
+    .about .text {
+        width: auto;
+    }
+    .advantages {
+        height: auto;
+        padding: 6rem 0 3rem 0;
+    }
+    .advantages .content_wrapper {
+        padding-left: calc(100% / 2 - 15rem / 2);
+    }
+    .adv_item {
+        float: none;
+        margin-left: 0rem;
+        margin-bottom: 3rem;
+    }
+    .skills {
+        height: 52rem;
+    }
+    .skills {
+        height: 42rem;
+        padding: 3rem 0 0 2rem;
+    }
+    .skills .content_wrapper {
+        padding-left: 0rem;
+    }
+    .skills img {
+        display: none;
+    }
+
+    .skills .section_title {
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .progress_outer {
+        width: 26.7rem;
+    }
+    .progress_inner {
+        width: 20.94rem;
+    }
+    .work {
+        padding: 5rem 0;
+    }
+    .video {
+        width: 90%;
+        height: 16rem;
+    }
+    .video img {
+        width: 5rem;
+        height: 5rem;
+    }
+    .additional {
+        padding-bottom: 3rem;
+    }
+    .additional_img {
+        display: none;
+    }
+    .microsoft {
+        display: block;
+    }
+    .microsoft img {
+        width: 10rem;
+        margin: 0 2rem;
+    }
+    .request {
+        padding: 5rem 0;
+    }
+    .request form {
+        width: auto;
+    }
+    .request input {
+        width: 100%;
+    }
+    .request input[type="text"] {
+        float: none;
+    }
+    .request input[type="email"] {
+        float: none;
+    }
+    .footer {
+        padding: 3.5rem 0 2rem 0;
+    }
+    .footer h3 {
+        margin-bottom: 1rem;
+        font: 500 2.1rem 'Roboto', sans-serif;
+    }
+    .socials {
+        float: none;
+        padding-top: 0;
+        margin-bottom: 7rem;
+    }
+    .socials a {
+        margin: 0 1.2rem 0rem 0;
+    }
+}
