@@ -123,3 +123,34 @@ html {
 .adv_item figcaption span {
     font: 500 2.1rem 'Roboto', sans-serif;
 }
+.skills {
+    height: 65rem;
+    padding: 10rem 0;
+    background-color: #ffffff;
+}
+.skills .content_wrapper {
+    padding-left: 5rem;
+}
+.skills img {
+    width: 55.5rem;
+    height: 45rem;
+    float: right;
+}
+.skills .section_title {
+    padding-top: 10rem;
+    margin-bottom: 5rem;
+}
+.skills .text {
+    margin-bottom: 2rem;
+}
+.progress_outer {
+    width: 44.5rem;
+    height: 0.4rem;
+    margin-bottom: 3rem;
+    background-color: #C4C4C4;
+}
+.progress_inner {
+    width: 34.9rem;
+    height: 0.4rem;
+    background-color:#34547A;
+}
