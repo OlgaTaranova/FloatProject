@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html {
     font-size: 10px;
@@ -39,10 +40,43 @@ html {
     letter-spacing: 0.1em;
     color: #000;
 }
+.nav a:hover {
+    color: #34547A;
+}
 .nav .current_page {
     font: 500 1.6rem 'Roboto', sans-serif;
     color: #34547A;
 }
 .design_and_markup {
-    padding-top: 25.7rem;
+    padding-top: 18rem;
+    height: 58rem;
+}
+.design_and_markup img {
+    float: left;
+    padding: 0 15rem 0 8rem;
+}
+.design_and_markup h1 {
+    font: 500 4.8rem/0.9rem 'Roboto', sans-serif;
+    margin-bottom: 6rem;
+}
+.text {
+    font: 400 1.6rem/3rem 'Roboto', sans-serif;
+    color: #727272;
+}
+.design_and_markup .text {
+    padding-right: 13rem;
+    margin-bottom: 6rem;
+}
+.btn {
+    width: 22.5rem;
+    height: 6.5rem;
+    border: none;
+    background-color: #34547A;
+    text-transform: uppercase;
+    font: 400 1.6rem/3rem 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #4975aa;
 }
