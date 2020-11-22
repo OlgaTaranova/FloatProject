@@ -101,3 +101,25 @@ html {
     width: 50rem;
     text-align: center;
 }
+.advantages {
+    background: #34547A;
+    padding: 7rem 0 10rem 0;
+}
+.adv_item {
+    width: 15rem;
+    float: left;
+    margin-left: 4.9rem;
+}
+.adv_item img{
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    margin-right: 2rem;
+}
+.adv_item figcaption {
+    font: 400 1.6rem 'Roboto', sans-serif;
+    color: #ffffff;
+}
+.adv_item figcaption span {
+    font: 500 2.1rem 'Roboto', sans-serif;
+}
