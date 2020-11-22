@@ -185,3 +185,20 @@ html {
     cursor: pointer;
     transform: scale(1.1, 1.1);
 }
+.additional {
+    padding: 2.8rem 0 10rem 0;
+}
+.additional_img {
+    height: 96rem;
+    background: url('images/additional.png') no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 7.2rem;
+}
+.microsoft {
+    display: flex;
+    justify-content: center;
+}
+.microsoft img{
+    margin-right: 3rem;
+}
