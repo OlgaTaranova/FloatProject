@@ -6,9 +6,21 @@ html {
     font-size: 10px;
 }
 .content_wrapper {
-    max-width: 1920px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .header, .design_and_markup {
     background-color: #EEEFF1;
+}
+.logo {
+    font: 400 4.8rem 'Revalia';
+    font-style: cursive;
+    color: #34547A;
+    float: left;
+}
+.nav ul {
+    list-style-type: none;
+}
+.nav li {
+    float: left;
 }
