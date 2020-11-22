@@ -154,3 +154,34 @@ html {
     height: 0.4rem;
     background-color:#34547A;
 }
+.work {
+    padding: 10rem 0;
+    background-color:#EEEFF1;
+}
+.work .content_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.work .section_title {
+    margin-bottom: 5rem;
+}
+.work .text {
+    max-width: 50rem;
+    text-align: center;
+    margin-bottom: 5.7rem;
+}
+.video {
+    width: 111rem;
+    height: 60rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('images/video.png') no-repeat;
+    background-size: cover;
+}
+.video img:hover {
+    cursor: pointer;
+    transform: scale(1.1, 1.1);
+}
