@@ -80,3 +80,24 @@ html {
     cursor: pointer;
     background-color: #4975aa;
 }
+.about {
+    background: #ffffff;
+    padding: 12rem 0 10rem 0;
+}
+.section_title {
+    font: 500 3.2rem 'Roboto', sans-serif;
+    color: #000;
+}
+.about .content_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about h2 {
+    margin-bottom: 5rem;
+}
+.about .text {
+    width: 50rem;
+    text-align: center;
+}
