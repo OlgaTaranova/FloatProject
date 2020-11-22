@@ -250,3 +250,24 @@ html {
     height: 5.5rem;
     margin-left: calc(100%/2 - 190px / 2);
 }
+.footer {
+    /* height: 15rem; */
+    padding: 5.5rem 0;
+    background: #34547A;
+}
+.footer  h3 {
+    margin-bottom: 2rem;
+    font: 500 2.1rem/0.9rem 'Roboto', sans-serif;
+    color: #ffffff;
+}
+.footer  p {
+    font: 400 1.3rem 'Roboto', sans-serif;
+    color: #ffffff;
+}
+.socials {
+    float: right;
+    padding-top: 1.5rem;
+}
+.socials a {
+    margin-left: 2.2rem; 
+}
